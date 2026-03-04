@@ -43,7 +43,9 @@ export default function Work() {
             Want to see my complete work history?
           </p>
           <a
-            href="#footer-heading"
+            href="https://www.linkedin.com/in/emilystanek/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 font-medium transition-colors duration-300 hover:underline"
           >
             View my LinkedIn profile

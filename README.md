@@ -65,15 +65,6 @@ npm run dev
 
 ## ✏️ Customization
 
-Edit `app/page.tsx` to personalize:
-- Your name and title in the hero section
-- Replace the placeholder visual with your photo or custom illustration
-- About section cards
-- Technology skills and colors
-- Work timeline
-- Evolution journey items
-- Social media links
-
 ### Color Schemes
 The site uses a purple/indigo gradient theme. To change colors, search for:
 - `indigo-` - Primary brand color
@@ -113,18 +104,3 @@ The deployment process is fully automated, so just push to main and your changes
 - Tailwind CSS
 - Custom CSS animations
 - Pure CSS transforms (no libraries!)
-
-## 💡 What Makes This Different
-
-Most portfolios look the same - centered text, bland cards, minimal interaction. This portfolio:
-- ✅ Captures attention immediately with a custom cursor and sparkle effects
-- ✅ Encourages exploration through interaction (try moving your mouse around!)
-- ✅ Shows personality and creativity with nostalgic MySpace-era effects
-- ✅ Demonstrates technical skill through the experience itself
-- ✅ Each technology badge glows with its own unique color
-- ✅ Remains professional and accessible despite the playful elements
-- ✅ Stays lightweight and performant (all effects are pure CSS/React, no libraries!)
-
----
-
-Made with care, creativity, and code ☕

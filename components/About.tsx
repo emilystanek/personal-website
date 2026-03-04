@@ -21,8 +21,7 @@ export default function About() {
               Creative Problem Solver
             </h3>
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-              I love transforming complex challenges into elegant, intuitive solutions. Each
-              project is an opportunity to blend creativity with technical excellence.
+              I love transforming complex challenges into elegant, intuitive solutions. Currently partnering with our design system team at HelloFresh to implement motion design that enhances user experiences across the platform. Adding delightful details and thoughtful interactions is what makes my work truly rewarding.
             </p>
           </div>
 
@@ -39,8 +38,7 @@ export default function About() {
               Performance Focused
             </h3>
             <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-              Obsessed with creating fast, accessible experiences. Clean code and optimal
-              performance aren't just goals—they're the foundation of everything I build.
+              Obsessed with creating fast, accessible experiences through observability and strong a11y practices. I've led accessibility compliance initiatives, driving WCAG standards and developer buy-in across teams. Clean code, optimal performance, and inclusive design aren't just goals—they're the foundation of everything I build.
             </p>
           </div>
         </div>
