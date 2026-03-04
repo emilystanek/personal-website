@@ -17,8 +17,7 @@ export default function Work() {
                 Senior Software Developer @ HelloFresh
               </h3>
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                Leading development of modern web applications using React, Next.js, and TypeScript.
-                Focused on building scalable, maintainable solutions with exceptional user experiences.
+                Led frontend architecture for high-volume e-commerce platforms, improving performance and reliability across teams. Championed AI-assisted development workflows and accessibility initiatives while mentoring developers and establishing architectural patterns across the organization.
               </p>
             </div>
           </article>
@@ -33,11 +32,23 @@ export default function Work() {
                 Full-Stack Developer @ Ackroo
               </h3>
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                Developed responsive web applications and improved performance metrics.
-                Collaborated with designers and backend teams to deliver pixel-perfect implementations.
+                Built high-performance user interfaces with Angular and React while developing a custom component library that reduced UI development time by 50%. Won Engineering Awards for accessibility and tooling contributions, including compliance improvements and design enhancements across products.
               </p>
             </div>
           </article>
+        </div>
+
+        <div className="mt-12 sm:mt-16 text-center">
+          <p className="text-slate-600 dark:text-slate-300 mb-4">
+            Want to see my complete work history?
+          </p>
+          <a
+            href="#footer-heading"
+            className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 font-medium transition-colors duration-300 hover:underline"
+          >
+            View my LinkedIn profile
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </section>

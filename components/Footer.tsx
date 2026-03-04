@@ -14,8 +14,8 @@ export default function Footer() {
         <nav aria-label="Social media links">
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mb-8 sm:mb-10 md:mb-12">
             {[
-              { name: 'GitHub', url: 'https://github.com', icon: '🛸', label: 'Visit my GitHub profile' },
-              { name: 'LinkedIn', url: 'https://linkedin.com', icon: '👽', label: 'Connect with me on LinkedIn' },
+              { name: 'GitHub', url: 'https://github.com/emilystanek', icon: '🛸', label: 'Visit my GitHub profile' },
+              { name: 'LinkedIn', url: 'https://www.linkedin.com/in/emilystanek/', icon: '👽', label: 'Connect with me on LinkedIn' },
             ].map((link) => (
               <a
                 key={link.name}
