@@ -41,6 +41,17 @@
   transition-duration: 0.01ms !important;
 }
 
+/* Hero section gradient background */
+.hero-gradient {
+  background: linear-gradient(135deg, rgb(230, 224, 255) 0%, rgb(99, 102, 241) 50%, rgb(255, 255, 255) 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-gradient {
+    background: linear-gradient(135deg, rgb(15, 23, 42) 0%, rgb(15, 23, 42) 100%);
+  }
+}
+
 /* Screen reader only text */
 .sr-only {
   position: absolute;

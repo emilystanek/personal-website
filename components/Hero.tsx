@@ -39,7 +39,7 @@ export default function Hero({ effectsEnabled }: HeroProps) {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center px-6 pt-20 relative overflow-hidden bg-gradient-to-br from-purple-200 to-indigo-500 dark:from-slate-900 dark:to-slate-900"
       aria-label="Hero section"
     >
       {/* Night Sky Stars */}
@@ -95,7 +95,7 @@ export default function Hero({ effectsEnabled }: HeroProps) {
         {/* Mobile scroll down arrow */}
         <a
           href="#about"
-          className="mt-8 sm:hidden flex flex-col items-center gap-2 text-slate-400 dark:text-slate-600 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors duration-300 animate-bounce"
+          className="mt-8 sm:hidden flex flex-col items-center gap-2 text-white dark:text-slate-600 hover:text-indigo-300 dark:hover:text-indigo-400 transition-colors duration-300 animate-bounce"
           aria-label="Scroll down to About section"
         >
           <span className="text-xs font-medium uppercase tracking-wide">Scroll</span>
@@ -112,8 +112,8 @@ export default function Hero({ effectsEnabled }: HeroProps) {
 
         {/* Desktop floating scroll indicator */}
         <div className="absolute mt-12 sm:mt-16 md:mt-20 left-1/2 -translate-x-1/2 hidden sm:block" aria-hidden="true">
-          <div className="w-6 h-10 border-2 border-slate-400 dark:border-slate-600 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-2 bg-slate-400 dark:bg-slate-600 rounded-full" />
+          <div className="w-6 h-10 border-2 border-white dark:border-slate-600 rounded-full flex justify-center pt-2">
+            <div className="w-1 h-2 bg-white dark:bg-slate-600 rounded-full" />
           </div>
         </div>
       </div>
