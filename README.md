@@ -97,10 +97,13 @@ npm start
 
 ## 🌐 Deployment
 
-Deploy to:
-- **Vercel** (recommended for Next.js)
-- Netlify
-- Any static hosting service
+This site is automatically deployed to GitHub Pages using GitHub Actions. When you push changes to the `main` branch, the workflow automatically:
+
+1. Builds the Next.js site as a static export
+2. Uploads the build to GitHub Pages
+3. Deploys to **https://emilystanek.github.io/personal-website/**
+
+The deployment process is fully automated, so just push to main and your changes go live!
 
 ## 🛠 Tech Stack
 

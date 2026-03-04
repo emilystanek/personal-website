@@ -14,7 +14,7 @@ export default function Work() {
                 Current Position
               </div>
               <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                Software Developer
+                Senior Software Developer @ HelloFresh
               </h3>
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
                 Leading development of modern web applications using React, Next.js, and TypeScript.
@@ -30,7 +30,7 @@ export default function Work() {
                 Previous Role
               </div>
               <h3 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
-                Frontend Developer
+                Full-Stack Developer @ Ackroo
               </h3>
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
                 Developed responsive web applications and improved performance metrics.
